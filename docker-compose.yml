@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  cims:
+    build: .
+    container_name: cims_app
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - APP_ENV=production
+      - LOG_LEVEL=info
+    restart: unless-stopped

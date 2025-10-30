@@ -1,0 +1,20 @@
+[
+  {
+    "type": "startup",
+    "msg": "CIMS server started on port 3000",
+    "ts": "2025-10-30T07:20:48.332Z"
+  },
+  {
+    "type": "automation",
+    "action": "cleanupTemp",
+    "msg": "Cleaned 0 temp files",
+    "ts": "2025-10-30T07:21:42.337Z"
+  },
+  {
+    "type": "automation",
+    "action": "restartService",
+    "service": "webserver",
+    "msg": "Service \"webserver\" restarted successfully (simulated).",
+    "ts": "2025-10-30T07:21:42.479Z"
+  }
+]

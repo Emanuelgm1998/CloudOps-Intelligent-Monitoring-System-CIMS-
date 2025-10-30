@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "rules": [
+    {
+      "name": "High CPU",
+      "condition": {
+        "metric": "cpu.load1_pct",
+        "operator": ">",
+        "value": 75
+      },
+      "action": "ALERT_HIGH_CPU"
+    },
+    {
+      "name": "High Memory",
+      "condition": {
+        "metric": "memory.used_pct",
+        "operator": ">",
+        "value": 80
+      },
+      "action": "ALERT_HIGH_MEMORY"
+    },
+    {
+      "name": "Log spikes",
+      "condition": {
+        "metric": "logs.count",
+        "operator": ">",
+        "value": 100
+      },
+      "action": "ALERT_LOG_SPIKE"
+    }
+  ]
+}
