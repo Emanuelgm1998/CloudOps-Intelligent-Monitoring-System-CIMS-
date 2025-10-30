@@ -16,5 +16,15 @@
     "service": "webserver",
     "msg": "Service \"webserver\" restarted successfully (simulated).",
     "ts": "2025-10-30T07:21:42.479Z"
+  },
+  {
+    "type": "startup",
+    "msg": "CIMS server started on port 3000",
+    "ts": "2025-10-30T07:26:37.589Z"
+  },
+  {
+    "type": "startup",
+    "msg": "CIMS server started on port 3000",
+    "ts": "2025-10-30T07:27:36.478Z"
   }
 ]
